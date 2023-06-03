@@ -1,8 +1,11 @@
 {
   "name": "totkarmorupreqs",
   "version": "0.1.0",
+  "homepage": "https://ferife.github.com/totkarmorupreqs",
   "private": true,
   "dependencies": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "@reduxjs/toolkit": "^1.9.5",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -36,5 +39,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
